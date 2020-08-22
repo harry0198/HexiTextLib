@@ -13,7 +13,7 @@ import java.util.List;
 
 public class HexResolver {
 
-    private static final Pattern GRADIENT_PATTERN = Pattern.compile("<(gradient|g)(:#([a-fA-F0-9]){6})*>");
+    private static final Pattern GRADIENT_PATTERN = Pattern.compile("<(gradient|g)(:#([a-fA-F0-9]){6})+>");
     private static final Pattern HEX_PATTERN = Pattern.compile("<(#[a-fA-F0-9]{6})>");
 
 
